@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; 
+        height: 100vh; 
+        flex-direction: row; 
+        gap: 20px; 
+        text-align: center;
+        margin-top: 5.08cm; 
+        overflow: visible; 
+      }
+
+      .flower {
+        position: relative;
+        width: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5.08cm; 
+        flex-shrink: 0; 
+      }
+
+      .message-box {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 2px solid #333;
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 350px;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        margin-top: -4.57cm; /* Moved the margin-top 1.8 inches (4.57 cm) up */
+      }
+
+      .message-box h2 {
+        color: #4CAF50;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .message-box p {
+        color: #333;
+        font-size: 18px;
+        margin: 10px 0;
+      }
+
+      audio {
+        width: 100%; 
+        max-width: 300px; 
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flower">
+        <div class="flower-pp">
+          <div class="flower_l"></div>
+          <div class="f">
+            <div class="leaf leaf--1"></div>
+            <div class="leaf leaf--2"></div>
+            <div class="leaf leaf--3"></div>
+            <div class="leaf leaf--4"></div>
+            <div class="leaf leaf--5"></div>
+            <div class="leaf leaf--6"></div>
+            <div class="leaf leaf--7"></div>
+            <div class="leaf leaf--8 flower__fall-down--yellow"></div>
+          </div>
+        </div>
+        <div class="flower-pp flower-pp--2">
+          <div class="flower_l"></div>
+          <div class="f">
+            <div class="leaf leaf--1"></div>
+            <div class="leaf leaf--2"></div>
+            <div class="leaf leaf--3"></div>
+            <div class="leaf leaf--4"></div>
+            <div class="leaf leaf--5"></div>
+            <div class="leaf leaf--6"></div>
+            <div class="leaf leaf--7"></div>
+            <div class="leaf leaf--8 flower__fall-down--pink"></div>
+          </div>
+        </div>
+        <div class="flower-pp flower-pp--3">
+          <div class="flower_l"></div>
+          <div class="f">
+            <div class="leaf leaf--1"></div>
+            <div class="leaf leaf--2"></div>
+            <div class="leaf leaf--3"></div>
+            <div class="leaf leaf--4"></div>
+            <div class="leaf leaf--5"></div>
+            <div class="leaf leaf--6"></div>
+            <div class="leaf leaf--7"></div>
+            <div class="leaf leaf--8 flower__fall-down--purple"></div>
+          </div>
+        </div>
+        <div class="flower__glass"></div>
+      </div>
+
+      <div class="message-box">
+        <h2>Merry Christmas, Ceana Mae!</h2>
+        <p>My dearest Ceana Mae,</p>
+        <p>I'm very grateful to have you in my life. Thank you for everything that you have done for me, and thank you for being the amazing person that you are. 
+          See you soooon!!! hehehe miss uuuuu
+        </p>
+        <p>Merry Christmas, my Deaaaar!!!</p>
+
+        <audio controls autoplay>
+          <source src="music/Ligaya.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+    </div>
+  </body>
+</html>
